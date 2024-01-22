@@ -1,0 +1,72 @@
+/*head*/
+
+.titulo {
+    height: 2rem;
+}
+
+.imgLogo {
+    margin-left: 10px;
+    margin-top: -60px;
+    width: 50px;
+    height: 100px;
+}
+
+/*Segunda Barra de Navegacion*/
+
+.especialUl {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+
+.especial {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    /*quitar subrayado*/
+    text-decoration: none;
+
+    /*mayuscula*/
+    text-transform: uppercase;
+
+    /*color fuente*/
+    color: $color-fuentes-otr;
+}
+
+h1 {
+ color: $color-fuentes;
+}
+
+h2 {
+    color: $color-fuentes;
+   }
+
+h5 {
+    color: $color-fuentes;
+}
+
+/*del menu se deja seleccionado uno según pagina*/
+
+#sel {
+    background-color: chocolate;
+}
+
+
+
+.tituloLink {
+    font-size: 2rem;
+}
+
+.formTitulo {
+    color: $color-fuentes;
+}
+

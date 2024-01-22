@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*pie de pagina*/
+/*estilo de barra de botones de redes sociales*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.redes {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #560404;
+  padding: 0.5rem 1rem;
+}
+footer .copiright {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem;
+  max-width: 50%;
+  margin: auto;
+  margin-left: 0;
+  background-color: lightgreen;
+}
+footer .copiright p {
+  color: #BBBBBB;
+  align-self: center;
+  font-family: "Palanquin Dark";
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  background-color: black;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 40px;
+  padding-top: 10px;
+  font-size: 16px;
+  height: 100%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(135deg, rgb(34, 193, 195) 23%, rgb(253, 247, 45) 100%);
+}
+
+.boton {
+  color: white;
+  font-size: 14px;
+}
+
+.navegador {
+  background-color: white;
+  border: none;
+  border-radius: 0%;
+  font-weight: bold;
+}
+
+.tituloEspecial {
+  font-size: 3rem;
+}
+
+.formAdicional {
+  width: 55%;
+}
+
+.foto {
+  max-width: 350px;
+  width: 320px;
+  height: 260px;
+  margin: 20px;
+  padding: 5px;
+  display: inline-block;
+  margin: auto;
+}
+
+/*head*/
+.titulo {
+  height: 2rem;
+}
+
+.imgLogo {
+  margin-left: 10px;
+  margin-top: -60px;
+  width: 50px;
+  height: 100px;
+}
+
+/*Segunda Barra de Navegacion*/
+.especialUl {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-left: 350px;
+  margin-right: 350px;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+}
+
+.especial {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a {
+  /*quitar subrayado*/
+  text-decoration: none;
+  /*mayuscula*/
+  text-transform: uppercase;
+  /*color fuente*/
+  color: black;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+/*del menu se deja seleccionado uno según pagina*/
+#sel {
+  background-color: chocolate;
+}
+
+.tituloLink {
+  font-size: 2rem;
+}
+
+.formTitulo {
+  color: white;
+}
+
+.tituloBanner {
+  color: white;
+  opacity: 2;
+  z-index: 999;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: Cambria;
+}
+
+/*# sourceMappingURL=estilo.css.map */

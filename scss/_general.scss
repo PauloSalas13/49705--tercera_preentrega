@@ -1,0 +1,46 @@
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 40px;
+    padding-top: 10px;
+    font-size: 16px;
+    height: 100%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 23%, rgba(253, 247, 45, 1) 100%);
+  }
+
+.boton {
+    color: $color-botones;
+    font-size: 14px;
+}
+
+.navegador {
+    background-color: $color-fuentes; 
+    border: none;
+    border-radius: 0%;
+    font-weight: bold;
+}
+
+.tituloEspecial {
+    font-size: 3rem;
+}
+
+.formAdicional {
+    width: 55%;
+}
+
+.foto {
+    max-width: 350px;
+    width: 320px;
+    height: 260px;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+
